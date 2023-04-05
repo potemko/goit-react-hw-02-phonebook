@@ -5,8 +5,8 @@ import Filter from 'components/Filter/Filter';
 
 class Contacts extends Component {
   state = {
-    contacts: [],
     filter: '',
+    contacts: [],
     name: '',
     number: '',
   };
