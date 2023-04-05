@@ -7,8 +7,8 @@ class Contacts extends Component {
   state = {
     filter: '',
     contacts: [],
-    name: '',
     number: '',
+    name: '',
   };
 
   addContact = event => {
@@ -64,7 +64,7 @@ class Contacts extends Component {
   };
 
   render() {
-    const { name, number, filter } = this.state;
+    // const { name, number, filter } = this.state;
     // const filteredContacts = this.getFilteredContacts();
 
     return (
